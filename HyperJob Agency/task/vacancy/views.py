@@ -1,3 +1,2 @@
-from django.shortcuts import render
-
-# Create your views here.
+checking_int = '1.6'
+print(int(checking_int))
