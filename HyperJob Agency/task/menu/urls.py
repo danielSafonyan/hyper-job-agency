@@ -18,5 +18,5 @@ from . import views
 
 urlpatterns = [
     path('', views.MainPageView.as_view()),
-
+    path('my_list', views.rendering_html_w_argument)
 ]
