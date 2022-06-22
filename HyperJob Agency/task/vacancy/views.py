@@ -1,2 +1,5 @@
-checking_int = '1.6'
-print(int(checking_int))
+from django.http import HttpResponse
+
+
+def index(request):
+    return HttpResponse("hello")
