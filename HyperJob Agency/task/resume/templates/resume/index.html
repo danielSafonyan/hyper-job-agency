@@ -2,9 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Resumes</title>
 </head>
 <body>
-
+<h1>List of Resumes</h1>
+    {% for user in users %}
+      <div>{{ user.author }}: {{ user.description }}</div>
+    {% endfor %}
 </body>
 </html>

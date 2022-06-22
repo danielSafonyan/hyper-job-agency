@@ -6,3 +6,4 @@ from django.contrib.auth.models import User
 class Resume(models.Model):
     author = models.ForeignKey(User, on_delete=models.CASCADE)
     description = models.TextField()
+
